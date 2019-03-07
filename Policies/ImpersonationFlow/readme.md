@@ -1,12 +1,12 @@
 # Impersonation Flow for Azure AD B2C
-This is the files for a local account doing an impersonation flow for Azure AD B2C
+Impersonation flows are common for many business needs. We see this for users that manage other users either through functions within an application or services such as customer support. Whatever the reason may be, it can be easily achieved using Azure AD B2C flexible Identity Experience Framework with a few simple changes. Below are the minimum items required for this scenario.
 
 ## Common Scenarios
 1. **Customer Service Representative** requires assisting a user and requires to log into the application on the behalf of the user. The CSR wants to see exactly what the user sees.
 2. **Financial Investor** manages on the behalf of their customers. As such, a bank or an investment firm may require these individuals to log into their service/application to manage their customers information.
 
 ### Note:
-A standard to manage impersonation flows is currently in development and has not been finalized. This sample does not reflect the final product or guidance. You should monitor on this progress and plan to make changes to your design as standards of the industry changes. You can read on it [here](https://tools.ietf.org/html/draft-ietf-oauth-token-exchange-10 "OAuth 2.0 Token Exchange draft-ietf-oauth-token-exchange-10").
+A standard to manage impersonation flows is currently in development and has not been finalized. This sample does not reflect the final product or guidance. You should monitor on this progress and plan to make changes to your design as standards of the industry changes. You can read more [here](https://tools.ietf.org/html/draft-ietf-oauth-token-exchange-10 "OAuth 2.0 Token Exchange draft-ietf-oauth-token-exchange-10").
 
 # Core Policy components
 * 2 Claim Schemas
